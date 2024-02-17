@@ -42,7 +42,7 @@ chmod a+x repo
 ### Sync ***CARPC*** project:
 
 <pre>
-${REPO_TOOL} --trace init --manifest-url=${MANIFEST[${URL}]}  --manifest-name=${MANIFEST[${NAME}]}  --manifest-branch=${MANIFEST[${BRANCH}]} --depth=1
+${REPO_TOOL} --trace init --manifest-url=${MANIFEST["URL"]}  --manifest-name=${MANIFEST["NAME"]}  --manifest-branch=${MANIFEST["BRANCH"]} --depth=1
 ${REPO_TOOL} --trace sync --current-branch --no-clone-bundle --no-tags --fetch-submodules
 </pre>
 
