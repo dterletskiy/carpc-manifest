@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="TDA" fetch="ssh://git@github.com/dterletskiy"/>
-  <default revision="scorpius" remote="TDA" sync-j="4" />
-  <project path="source" name="carpc" remote="TDA" revision="scorpius"/>
-  <project path="source/repos/carpc-builder" name="carpc-builder" remote="TDA" revision="main"/>
   <project path="source/repos/carpc-tracing" name="carpc-tracing" remote="TDA" revision="main"/>
   <project path="source/repos/carpc-base" name="carpc-base" remote="TDA" revision="main"/>
   <project path="source/repos/carpc-tools" name="carpc-tools" remote="TDA" revision="main"/>
@@ -12,6 +8,4 @@
   <project path="source/repos/carpc-hooks" name="carpc-hooks" remote="TDA" revision="main"/>
   <project path="source/repos/carpc-instrumental" name="carpc-instrumental" remote="TDA" revision="main"/>
   <project path="source/repos/carpc-servicebrocker" name="carpc-servicebrocker" remote="TDA" revision="main"/>
-  <project path="source/repos/carpc-examples" name="carpc-examples" remote="TDA" revision="scorpius"/>
-  <project path="source/repos/carpc-tutorial" name="carpc-tutorial" remote="TDA" revision="scorpius"/>
 </manifest>
