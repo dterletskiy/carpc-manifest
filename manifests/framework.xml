@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="source/framework/carpc-tracing" name="carpc-tracing" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-base" name="carpc-base" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-tools" name="carpc-tools" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-osw" name="carpc-osw" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-runtime" name="carpc-runtime" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-hooks" name="carpc-hooks" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-instrumental" name="carpc-instrumental" remote="TDA" revision="main"/>
+  <project path="source/framework/carpc-servicebrocker" name="carpc-servicebrocker" remote="TDA" revision="main"/>
+</manifest>

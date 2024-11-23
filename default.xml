@@ -2,9 +2,9 @@
 <manifest>
   <remote name="TDA" fetch="ssh://git@github.com/dterletskiy"/>
   <default revision="scorpius" remote="TDA" sync-j="4" />
-  <include name="manifests/main.xml" />
-  <include name="manifests/builder.xml" />
   <include name="manifests/carpc.xml" />
+  <include name="manifests/builder.xml" />
+  <include name="manifests/framework.xml" />
   <include name="manifests/tutorial.xml" />
   <include name="manifests/examples.xml" />
   <include name="manifests/override.xml" />
